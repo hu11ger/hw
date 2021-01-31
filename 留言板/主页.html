@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./主页.js"></script>
+    <link rel="stylesheet" href="./主页.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>主页</h1>
+    </div>
+    <div class="content">
+        <div class="mesBox">
+            <h2>留言框</h2>
+            <ul id="mesBoard">
+
+            </ul>
+        </div>
+
+        <div class="comBox">
+            <div class="mes">
+                <label for="content">留言:</label>
+                <textarea maxlength="500" name="content" id="content" cols="30" rows=""></textarea>
+            </div>
+
+            <button onclick="postMsg()">提交留言</button>
+            <button onclick="changeMsg()">修改留言</button>
+        </div>
+    </div>
+</body>
+
+</html>

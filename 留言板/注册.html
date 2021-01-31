@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <script src="./注册.js"></script>
+    <link rel="stylesheet" href="注册.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>留言板>注册</h1>
+    </div>
+    <div class="content">
+        <form action="">
+            <div class="user">
+                <label for="account_number">账号:</label>
+                <input type="text" id="account_number" placeholder="请输入您新建的账号">
+            </div>
+            <div class="pwd">
+                <label for="pwd">密码:</label>
+                <input type="text" id="pwd" placeholder="请输入您新建的密码">
+            </div>
+            <div class="pwdConf">
+                <label for="pwdConf">确认密码:</label>
+                <input type="text" id="pwdConf" placeholder="请确认您新建的密码">
+            </div>
+
+            <div>
+                <button onclick="post_log()"><p>确认注册</p></button>
+                <button class="btn2"><p>跳转到登录</p></button>
+            </div>
+
+            
+            <!-- <div class="button" onclick="post_log()">
+                <p>注册</p>
+            </div> -->
+        </form>
+    </div>
+
+    <div class="mesBox">
+    </div>
+
+</body>
+
+
+</html>

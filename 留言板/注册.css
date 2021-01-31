@@ -1,0 +1,98 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: #f6f6f6
+}
+
+.header {
+    box-shadow: 0 0 10px #585151;
+    background-color: #fff;
+    width: 100vw;
+    margin-bottom: 80px;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+}
+
+.header img {
+    width: 40px;
+    display: inline;
+}
+
+.header h1 {
+    display: inline;
+    font-size: 35px;
+    text-shadow: 0px 6px 1px #dad0d0;
+
+}
+
+.content {
+    display: flex;
+    box-shadow: 0 0 10px #585151;
+    background-color: #fff;
+    width: 50vw;
+    padding: 50px;
+    padding-left: 70px;
+}
+
+input {
+    background: none;
+    outline: none;
+    border: 1px solid #cccccc;
+    height: 30px;
+    width: 50vw;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+input:focus {
+    border: 2px solid #67afe9;
+
+}
+
+input:hover {
+    box-shadow: 0 0 5px #67afe9;
+}
+
+button {
+    background: #67afe9;
+    width: 20vw;
+    padding: 4px 0;
+    border-radius: 10px;
+    margin-right: 20px;
+    border: 1px solid #585151;
+    box-shadow: 0 2px 5px #585151;
+}
+
+button p {
+
+    font-family: 'Roboto';
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+
+}
+
+
+.btn2 {
+    background: #e4fa8c;
+    width: 20vw;
+    padding: 4px 0;
+    border-radius: 10px;
+    margin-right: 20px;
+    border: 1px solid #585151;
+    box-shadow: 0 2px 5px #585151;
+}
+
+.btn2 p {
+
+    font-family: 'Roboto';
+    text-align: center;
+    text-transform: uppercase;
+    color: #585151;
+}
